@@ -1,7 +1,6 @@
 package factoryPattern;
 
-public class Cat implements Pet 
-{
+public class Cat implements Pet {
     private Integer noOfLives;
 
     public Integer getNoOfLives() {
@@ -21,5 +20,4 @@ public class Cat implements Pet
     public String play() {
         return "Pouncing a dead rat!";
     }
-
 }
